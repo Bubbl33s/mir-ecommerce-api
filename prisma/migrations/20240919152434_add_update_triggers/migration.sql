@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "categories" ADD COLUMN     "created_at" TIMESTAMP(6) DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "is_deleted" BOOLEAN DEFAULT false,
+ADD COLUMN     "updated_at" TIMESTAMP(6) DEFAULT CURRENT_TIMESTAMP;
